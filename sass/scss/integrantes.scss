@@ -1,0 +1,229 @@
+/*INTEGRANTES*/
+
+/*Mobile*/	
+	.about{
+		position: relative;
+		text-align: justify;
+		color: white;
+		}
+
+		h3{
+			margin-bottom: 2rem;
+			text-align: center;
+			font-size: 1.5rem;
+			font-weight: 300;
+			font-style: italic;
+		}
+	
+		.column{
+		padding: 0 2rem;
+		font-size: 1.2rem;
+		}
+	
+		.column p{
+		padding-top: 2rem;
+		}
+	
+		.mascaraimagen{
+		width: 17rem;
+		height: 17rem;
+		border-radius: 50%;
+		overflow: hidden;
+		margin: auto;
+		box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+		background-image: url("../../bn4.jpg");
+		background-position: center center;
+		background-size: cover;
+		transition: transform 0.5s linear 0.5s;
+		margin-bottom: 3rem;
+		}
+	
+		.mascaraimagen img{
+		width: 100%;
+		height: 100%;
+		}
+	
+		.mascaraimagen:hover{
+		background-image: url("../../imagen-013.jpg");
+		transform: scale(1.1);
+		transition: transform 0.5s linear;
+	
+		}
+	
+		#back2{
+		background-image: url("../../bn3.jpg");
+		background-position: center center;
+		background-size: cover;
+		}
+	
+		#back2:hover{
+		background-image: url("../../imagen-023.jpg");
+		}
+		#back3{
+		background-image: url("../../bn2.jpg");
+		background-position: center center;
+		background-size: cover;
+		}
+	
+		#back3:hover{
+		background-image: url("../../imagen-033.jpg");
+		}
+		#back4{
+		background-image: url("../../bn1.jpg");
+		background-position: center center;
+		background-size: cover;
+		}
+	
+		#back4:hover{
+		background-image: url("../../imagen-043.jpg");
+		}
+	
+		/*FOTO FONDO*/
+		.textoconfondo{
+		align-items: center;
+		padding: 7rem 2rem 5rem 2rem;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		height: 100vh;
+		margin-top:7rem;
+		margin-bottom: 5rem;
+		}
+	
+		.textoconfondo p{
+		font-size: 6rem;
+		opacity: 1 !important;
+		color: white !important;
+		line-height: 10rem;
+		}
+
+		.textoconfondo img{
+		height: 15rem;
+		width: auto;
+		margin-bottom: 5rem;
+
+		}
+		.fotofondo{
+		background-position: 52% 50%;	
+		background-image: url("../../fondo2y.jpg");
+		// background-attachment:fixed;
+		background-image: no-repeat;
+		background-size: cover;
+		}
+	
+
+
+/*Desktop*/		
+@media only screen and (min-width: 961px) {	
+	.about{
+	position: relative;
+	padding: 1rem;
+	margin: 1rem 13rem 1rem 13rem;
+	text-align: justify;
+	color: white;
+
+	}
+	.columnas{
+	padding-right: 5rem;
+	margin-top: 5rem;
+	display: flex;
+	}
+
+	.column{
+	padding: 0 2rem;
+	border-right-style: dotted;
+	width: 25%;
+	margin-left: 3rem;
+	margin-right: -3rem;
+	border-width: 0.13rem;	
+	font-size: 1.2rem;
+	}
+
+	.column p{
+	padding-top: 2rem;
+	}
+
+	.mascaraimagen{
+	width: 17rem;
+	height: 17rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+	background-image: url("../../bn4.jpg");
+	background-position: center center;
+	background-size: cover;
+	transition: transform 0.5s linear 0.5s;
+	margin-bottom: 3rem;
+	}
+
+	.mascaraimagen img{
+	width: 100%;
+	height: 100%;
+	}
+
+	.mascaraimagen:hover{
+	background-image: url("../../imagen-013.jpg");
+	transform: scale(1.1);
+	transition: transform 0.5s linear;
+
+	}
+
+	#back2{
+	background-image: url("../../bn3.jpg");
+	background-position: center center;
+	background-size: cover;
+	}
+
+	#back2:hover{
+	background-image: url("../../imagen-023.jpg");
+	}
+	#back3{
+	background-image: url("../../bn2.jpg");
+	background-position: center center;
+	background-size: cover;
+	}
+
+	#back3:hover{
+	background-image: url("../../imagen-033.jpg");
+	}
+	#back4{
+	background-image: url("../../bn1.jpg");
+	background-position: center center;
+	background-size: cover;
+	}
+
+	#back4:hover{
+	background-image: url("../../imagen-043.jpg");
+	}
+
+	/*FOTO FONDO*/
+	.textoconfondo{
+	align-items: center;
+	margin: 5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: 5rem;
+	}
+
+	.textoconfondo p{
+	padding-bottom: 10rem;
+	font-size: 15rem;
+	opacity: 1 !important;
+	color: white !important;
+	line-height: 14rem;
+	}
+
+	.textoconfondo img{
+	width: auto;
+	height: 17rem;
+	}
+
+	.fotofondo{
+	height: 100vh;
+	width: auto;
+	background-image: url("../../fondo2y.jpg");
+	background-attachment:fixed;
+	background-image: no-repeat;
+	background-image: center;
+	background-size: cover;
+	}
+ }
+

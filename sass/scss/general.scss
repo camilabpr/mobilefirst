@@ -1,0 +1,49 @@
+/*GENERAL*/
+
+/*Mobile*/	
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: open Sans;
+}
+
+body{
+	background: rgb(19, 18, 18);
+	background-position: center center;
+	background-size: cover;
+	margin:0;
+	font-size: 1.24rem;
+	opacity: 0.9;
+}
+
+
+
+/*Desktop*/		
+@media only screen and (min-width: 961px) {	
+
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: open Sans;
+}
+
+body{
+	background: rgb(19, 18, 18);
+	background-position: center center;
+	background-size: cover;
+	margin:0;
+	font-size: 1.24rem;
+	opacity: 0.9;
+	line-height: 1.9rem;
+}
+
+
+}

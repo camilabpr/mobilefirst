@@ -1,0 +1,112 @@
+/*INICIO BANDA*/
+
+
+/*Mobile*/	
+.parte1{
+	position: relative;
+	text-align: justify;
+	padding:3rem;
+}
+
+.video{
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 3rem;
+}
+
+.iniciostext{
+	color: white;
+	padding-top: 2rem;
+}
+
+h1{
+	font-size: 1.5rem;
+	letter-spacing: 1rem;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 2.3rem;
+	color: white;
+	margin: 0rem;
+}
+h2{
+	font-size: 3rem;
+	letter-spacing: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.parte1 h2{
+	font-size: 3rem;
+	letter-spacing: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 0;
+	margin-bottom: 2rem;
+	color:white;
+}
+
+
+/*Desktop*/		
+@media only screen and (min-width: 961px) {	
+	.parte1{
+		position: relative;
+		padding: 1rem;
+		margin: 6rem 13rem 1rem 13rem;
+		text-align: justify;
+	}
+	
+	.video{
+		float: left;
+		margin-right: 4rem;
+		padding-bottom:4rem;
+		width: 55%;
+		padding-top: 6rem;
+	}
+	
+	.iniciostext{
+		margin:0rem;
+		margin-bottom: 5rem;
+		color: white;
+		padding-top:3.5rem;
+	}
+	
+	h1{
+		font-size: 1.5rem;
+		letter-spacing: 2rem;
+		text-align: left;
+		padding-top: 0;
+		padding-bottom: 2.3rem;
+		color: white;
+		margin: 0rem;
+	}
+	h2{
+		font-size: 3rem;
+		letter-spacing: 2rem;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2rem;
+	}
+	
+	h4{
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	
+	.parte1 h2{
+		font-size: 3rem;
+		letter-spacing: 2rem;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 0;
+		margin-bottom: 2rem;
+		color:white;
+	}
+
+}

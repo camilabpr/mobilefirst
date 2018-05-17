@@ -1,0 +1,423 @@
+/*HISTORIA*/
+
+/*Mobile*/	
+.history{
+	position: relative;
+	color: white;
+}
+
+.principal{
+	margin-bottom: 3.5rem;
+}
+
+.flex-wrapper {
+position: relative;
+}
+
+.flex-wrapper.space-between {
+justify-content: space-between;
+}
+
+.flex-wrapper.pricing {
+border-bottom: 1px solid #d7d7d9;
+}
+
+.flex-wrapper.center {
+justify-content: center;
+}
+
+.flex-wrapper.vertical {
+flex-direction: column;
+}
+
+.flex-wrapper.less-bottom-border {
+margin-bottom: 3rem;
+}
+
+.intro-feature-icon {
+display: inline-block;
+width: 70px;
+height: 70px;
+margin-bottom: 10px;
+border: 1px solid #d1d2d3;
+border-radius: 50%;
+}
+
+.wide-column {
+height: 18rem;
+background-image: url("../../prueba1.jpg");
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.wide-text-column {
+position: relative;
+}
+
+.wide-column-text-box {
+position: relative;
+z-index: 10;
+max-width: 61rem;
+padding: 3rem 2rem 4rem 2rem;
+background-color: #fff;
+color: black;
+}
+
+.titulonuevo1{
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 1rem;
+padding:0;
+font-size: 5rem;
+opacity: 1 !important;
+color: black !important;
+line-height: 5rem;
+}
+
+.texthistoria1{
+margin:0rem;
+margin-bottom: 2rem;
+color: black;
+padding-top: 2rem;
+text-align: justify;
+}
+
+.otrahistoria2{
+padding: 3rem;
+}
+
+.titulonuevo2{
+align-items: center;
+margin: 5rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 8rem;
+margin: 0;
+padding:0;
+font-size: 5rem;
+opacity: 1 !important;
+color: white !important;
+line-height: 5rem;
+padding-bottom: 2rem;
+}
+
+.underline{
+position: relative;
+left: 0px;
+bottom: 0px;
+display: inline-block;
+width: 60px;
+height: 4px;
+border-radius: 3px;
+background-color: rgb(250, 76, 128);
+}
+
+.polaroid{
+width: 100%;
+}
+
+.polaroid img{
+width: 100%;
+height: auto;
+}
+
+.texthistoria2{
+text-align: justify;
+margin:0rem;
+margin-bottom: 2rem;
+color: white;
+padding-top: 2rem;
+}
+
+.otrahistoria3{
+padding:3rem;
+}
+
+.collagenuevo{
+width: 100%;
+}
+
+.collagenuevo img{
+width: 100%;
+height: auto;
+}
+
+.titulonuevo3{
+align-items: center;
+margin: 5rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 8rem;
+margin: 0;
+padding:0;
+font-size: 5rem;
+opacity: 1 !important;
+color: white !important;
+line-height: 5rem;
+padding-bottom: 2rem;
+} 
+
+.texthistoria3{
+text-align: justify;
+margin:0rem;
+margin-bottom: 2rem;
+color: white;
+padding-top: 2rem;
+}
+
+.collage2003 img{
+width: 50rem;
+float: left;
+padding-bottom:4rem;
+}
+
+.collage1999 img{
+width: 60rem;
+float: left;
+margin-right: 4rem;
+padding-bottom:4rem;
+
+}
+.texto1historia{
+color:black;
+}
+
+.otrahistoria4{
+background-color: rgb(250, 76, 128);
+}
+
+
+
+/*Desktop*/		
+@media only screen and (min-width: 961px) {	
+	.history{
+		position: relative;
+		padding: 2rem;
+		margin: 1rem 15rem 1rem 15rem;
+		text-align: justify;
+		color: white;
+	}
+	
+	.principal{
+		margin-bottom: 3.5rem;
+	}
+	
+	.flex-wrapper {
+	position: relative;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	}
+	
+	.flex-wrapper.space-between {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	}
+	
+	.flex-wrapper.pricing {
+	border-bottom: 1px solid #d7d7d9;
+	}
+	
+	.flex-wrapper.center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	}
+	
+	.flex-wrapper.vertical {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	}
+	
+	.flex-wrapper.less-bottom-border {
+	margin-bottom: 60px;
+	}
+	
+	.intro-feature-icon {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	margin-bottom: 10px;
+	border: 1px solid #d1d2d3;
+	border-radius: 50%;
+	}
+	
+	.wide-column {
+	position: relative;
+	overflow: hidden;
+	width: 60%;
+	height: auto;
+	background-image: url("../../prueba1.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	
+	.wide-text-column {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 40%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	}
+	
+	.wide-column-text-box {
+	position: relative;
+	z-index: 10;
+	width: 130%;
+	max-width: 61rem;
+	margin-top: 11rem;
+	margin-bottom: 11rem;
+	margin-left: -40%;
+	padding: 12rem 7rem 7rem;
+	background-color: #fff;
+	color: black;
+	}
+	
+	.titulonuevo1{
+	align-items: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-top: 1rem;
+	padding:0;
+	font-size: 5rem;
+	opacity: 1 !important;
+	color: black !important;
+	line-height: 5rem;
+	padding-bottom: 2rem;
+	}
+	
+	.texthistoria1{
+	margin:0rem;
+	margin-bottom: 2rem;
+	color: black;
+	padding-top: 2rem;
+	
+	}
+	
+	.otrahistoria2{
+	display:flex;
+	flex-direction: row-reverse;
+	padding-bottom: 2rem;
+	}
+	
+	.titulonuevo2{
+	align-items: center;
+	margin: 5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: 8rem;
+	margin: 0;
+	padding:0;
+	font-size: 5rem;
+	opacity: 1 !important;
+	color: white !important;
+	line-height: 5rem;
+	padding-bottom: 2rem;
+	}
+	
+	.underline{
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	display: inline-block;
+	width: 60px;
+	height: 4px;
+	border-radius: 3px;
+	background-color: rgb(250, 76, 128);
+	}
+	
+	.polaroid{
+	width: 60%;
+	}
+	
+	.polaroid img{
+	width: 100%;
+	height: auto;
+	}
+	
+	.bloquedetexto1{
+	width: 40%;
+	}
+	
+	.texthistoria2{
+	margin:0rem;
+	margin-bottom: 2rem;
+	color: white;
+	padding-top: 2rem;
+	}
+	
+	.otrahistoria3{
+	display:flex;
+	}
+	
+	.collagenuevo{
+	width: 60%;
+	}
+	
+	.collagenuevo img{
+	width: 100%;
+	height: auto;
+	}
+	
+	.bloquedetexto2{
+	width: 40%;
+	}
+	
+	.titulonuevo3{
+	align-items: center;
+	margin: 5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: 8rem;
+	margin: 0;
+	padding:0;
+	font-size: 5rem;
+	opacity: 1 !important;
+	color: white !important;
+	line-height: 5rem;
+	padding-bottom: 2rem;
+	} 
+	
+	.texthistoria3{
+	margin:0rem;
+	margin-bottom: 2rem;
+	color: white;
+	padding-top: 2rem;
+	}
+	
+	.collage2003 img{
+	width: 50rem;
+	float: left;
+	padding-bottom:4rem;
+	}
+	
+	.collage1999 img{
+	width: 60rem;
+	float: left;
+	margin-right: 4rem;
+	padding-bottom:4rem;
+	
+	}
+	.texto1historia{
+	color:black;
+	}
+	
+	.otrahistoria4{
+	background-color: rgb(250, 76, 128);
+	}
+
+}
+

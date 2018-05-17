@@ -1,0 +1,90 @@
+
+
+.cabezal{
+	background:linear-gradient(to bottom, black , rgba(0, 0, 0, .0));
+	background-position: center center;
+	padding: 2.5rem 0rem 0rem 14.5rem;
+	height: 10rem; 
+	width: 100%;
+	top:0;
+	position: fixed;
+	z-index: 1;	
+}
+
+.imagelogo{
+	height: 4rem;
+	margin-top: 3rem;
+	float: left;
+}
+
+.imagelogo img{
+	height: 100%;
+
+}
+
+.menu{
+	height: 4rem;
+	margin-top: 3rem;
+}
+.menu ol li{
+	height: 100%;
+}
+
+#nav{ 
+	color:#ffffff; 
+	font-size: 1.3rem;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0rem;
+	min-width: 5rem;
+	position: relative; 
+	display: flex;
+	justify-content: right;
+}
+
+ol li{
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+#nav:hover{
+	text-decoration: none;
+	color: #F7DC6F;
+}
+
+#logo{
+	width: 16rem;
+}
+
+.segundomenu{
+	position: absolute;
+	top: 1.5rem;
+	display: none;
+	left: 0;
+	color: white;
+	background-color: white;
+	text-align: left;
+	color:#1183B0;
+}
+
+nav ol li:hover .segundomenu{
+	display: block;
+	padding: 0;
+	line-height:3rem;
+	font-size: 1rem;
+}
+
+nav ol li:hover li{
+	width: 100%;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+}
+
+.segundomenu li:hover{
+	background-color: #292826;
+	color: white;
+}
